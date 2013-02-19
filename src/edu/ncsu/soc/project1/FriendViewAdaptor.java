@@ -2,16 +2,14 @@ package edu.ncsu.soc.project1;
 
 import java.util.ArrayList;
 
-
 import android.database.Cursor;
 import android.provider.ContactsContract;
 import android.provider.ContactsContract.PhoneLookup;
 import android.view.View;
-import android.view.ViewGroup;
 import android.view.View.OnClickListener;
+import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
-import android.content.Context;
 
 public class FriendViewAdaptor extends BaseAdapter {
 

@@ -32,7 +32,7 @@ public class FriendMapper extends MapActivity implements LocationListener{
 		locationManager =
 		        (LocationManager) this.getSystemService(Context.LOCATION_SERVICE);
 
-		locationProvider = locationManager.GPS_PROVIDER;
+		locationProvider = locationManager.getProvider(LocationManager.GPS_PROVIDER).getName();
 		
 		// create the map overlay
 		Drawable marker = getResources().getDrawable(R.drawable.marker);
